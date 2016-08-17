@@ -1,0 +1,58 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0;
+  margin: 0; }
+
+.div1 {
+  background-color: #1DABB8;
+  height: 100px;
+  width: 1000px;
+  margin-bottom: 1em;
+  margin: 0 auto; }
+
+.div2 {
+  margin-bottom: 1em;
+  background-color: #e82247;
+  height: 100px;
+  width: 1000px;
+  margin: 0 auto; }
+
+.div3 {
+  background-color: #1DABB8;
+  height: 100px;
+  width: 1000px;
+  margin-bottom: 1em;
+  margin: 0 auto; }
+
+.div4 {
+  margin-bottom: 1em;
+  background-color: #e82247;
+  height: 100px;
+  width: 1000px;
+  margin: 0 auto; }
+
+.div5 {
+  background-color: #1DABB8;
+  height: 100px;
+  width: 1000px;
+  margin-bottom: 1em;
+  margin: 0 auto; }
+
+.div6 {
+  margin-bottom: 1em;
+  background-color: #e82247;
+  height: 100px;
+  width: 1000px;
+  margin: 0 auto; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  background-color: aqua; }
+
+/*# sourceMappingURL=main.css.map */

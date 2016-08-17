@@ -1,0 +1,61 @@
+$font: 'Source Sans Pro', sans-serif;
+$primary-color: #e82247;
+$secundary-color: #1DABB8;
+$div-ancho: 1000px;
+$centrado-div: 0 auto;
+$div-alto: 100px;
+$margen-bootom: 1em;
+
+body {
+  font-family: $font;
+  padding: 0;
+  margin: 0;
+}
+
+.div1 {
+    background-color: $secundary-color;
+    height: $div-alto;
+    width: $div-ancho;
+    margin-bottom: $margen-bootom;
+    margin: $centrado-div;
+}
+
+.div2 {
+    margin-bottom: $margen-bootom;
+    background-color: $primary-color;
+    height: $div-alto;
+    width: $div-ancho;
+    margin: $centrado-div;
+}
+
+.div3 {
+    background-color: $secundary-color;
+    height: $div-alto;
+    width: $div-ancho;
+    margin-bottom: $margen-bootom;
+    margin: $centrado-div;
+}
+
+.div4 {
+    margin-bottom: $margen-bootom;
+    background-color: $primary-color;
+    height: $div-alto;
+    width: $div-ancho;
+    margin: $centrado-div;
+}
+
+.div5 {
+    background-color: $secundary-color;
+    height: $div-alto;
+    width: $div-ancho;
+    margin-bottom: $margen-bootom;
+    margin: $centrado-div;
+}
+
+.div6 {
+    margin-bottom: $margen-bootom;
+    background-color: $primary-color;
+    height: $div-alto;
+    width: $div-ancho;
+    margin: $centrado-div;
+}
