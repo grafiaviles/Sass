@@ -1,3 +1,4 @@
+/* line 1, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +8,7 @@
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box; }
 
+/* line 11, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 body {
   text-align: center;
   background-color: #00B5B5;
@@ -18,26 +20,32 @@ body {
   height: 100vh; }
 
 /** ETIQUETAS NATIVAS **/
+/* line 24, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 header, section, article, aside, div, nav, footer, hgroup, figure, menu, main, summary, figcaption, img {
   display: block; }
 
 /** CLEARFIX **/
+/* line 30, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 .clearfix:before, .clearfix:after {
   display: table;
   content: ""; }
 
+/* line 35, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 .clearfix:after {
   clear: both; }
 
+/* line 39, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 img {
   position: relative;
   width: 100%; }
 
+/* line 44, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 a {
   text-decoration: none;
-  transition: all .4s; }
+  transition: all 0.4s; }
 
 /** FORMULARIOS **/
+/* line 56, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 button,
 input,
 optgroup,
@@ -50,6 +58,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
+/* line 65, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 button {
   overflow: visible; }
 
@@ -59,6 +68,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
+/* line 77, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 button,
 select {
   text-transform: none; }
@@ -70,9 +80,9 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
+/* line 92, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 button,
-html input[type="button"],
-input[type="reset"],
+html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -82,6 +92,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
+/* line 102, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -89,6 +100,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
+/* line 111, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -98,6 +110,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
+/* line 121, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 input {
   line-height: normal;
   outline: none; }
@@ -109,6 +122,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
+/* line 135, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -121,6 +135,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
+/* line 147, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -130,6 +145,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
+/* line 157, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -143,6 +159,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
+/* line 171, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -150,6 +167,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
+/* line 179, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 fieldset {
   border: 0;
   margin: 0 2px;
@@ -159,6 +177,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
+/* line 190, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 legend {
   border: 0;
   /* 1 */
@@ -168,6 +187,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
+/* line 199, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 textarea {
   overflow: auto; }
 
@@ -175,55 +195,8 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
+/* line 208, /Users/CesarAviles/Desktop/CoderHouse/proyectos/Sass/scss/_reset.scss */
 optgroup {
   font-weight: bold; }
 
-header {
-  width: 100%;
-  min-width: 960px;
-  margin: 0 auto;
-  box-shadow: 0 20px 100px -35px rgba(0, 0, 0, 0.5);
-  position: fixed;
-  height: 80px; }
-  header .menu {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto; }
-  header .menu ul {
-    display: flex;
-    display: -webkit-flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    width: 100%; }
-  header .menu ul a {
-    flex: auto;
-    color: white;
-    line-height: 80px;
-    font-size: 1.1em;
-    font-weight: 600; }
-  header .menu ul a:hover:not(.logotipo) {
-    box-shadow: 0 4px 0 0 white inset;
-    background-color: rgba(0, 162, 162, 0.35); }
-  header .menu ul a:hover:not(.logotipo):active {
-    transform: scale(0.95); }
-  header .menu ul .logotipo {
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    align-items: center; }
-  header .menu ul .logotipo .iso {
-    border-radius: 50%;
-    background-color: white;
-    border: 7px solid #00a2a2;
-    width: 60px;
-    height: 60px;
-    transition: all .4s ease; }
-  header .menu ul .logotipo:hover .iso {
-    transform: scale(1.1); }
-  header .menu ul .logotipo:active .iso {
-    border: 7px solid #00a2a2;
-    box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.06);
-    transform: scale(0.95); }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=_reset.css.map */

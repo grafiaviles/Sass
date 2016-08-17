@@ -1,11 +1,11 @@
 $font: 'Source Sans Pro', sans-serif;
-$primary-color: #83D6DE;
-$secundary-color: #F1654C;
+$primary-color: #00B5B5;
+$secundary-color: #ff5e08;
 $tercer-color: #344146;
-$four-color: #74bac1;
+$four-color: #00a2a2;
 
 $container-full-width: 100%;
-$container-medio-width: 1200px;
+$container-medio-width: 1280px;
 $container-min-width: 960px;
 
 $container-height-full: 100vh;
@@ -22,17 +22,19 @@ $color-link-menu: white;
 
 
 header {
-    width: $container-full-width;
+    width: 100%;
     min-width: $container-min-width;    
-    background-color: $primary-color;
+    margin: $centrar;   
+    box-shadow: 0 20px 100px -35px rgba(0,0,0, .5);
     position: fixed;
+    height: 80px;
 
     
     .menu {
         width: 100%;
         max-width: $container-medio-width;
         margin: $centrar;
-        padding: 0 2em;
+
     }
     
     .menu ul {
@@ -47,20 +49,21 @@ header {
     .menu ul a {
         flex: auto;
         color: $color-link-menu;
-        line-height: 4.5em;
-        font-size: 1.2em;
+        line-height: 80px;
+        font-size: 1.1em;
         font-weight: 600;
-        letter-spacing: 1px;
         
     }
-    
-    .menu ul a:not(.logotipo){
-        opacity: .7;
+
+        
+    .menu ul a:hover:not(.logotipo) {
+        
+        box-shadow: 0 4px 0 0 white inset;
+        background-color: rgba(0, 162, 162, 0.35);
     }
     
-    .menu ul a:hover:not(.logotipo) {
-        opacity: 1;
-        background-color: $four-color;
+    .menu ul a:hover:not(.logotipo):active {
+        transform: scale(.95);
     }
     
     .menu ul .logotipo {
@@ -68,16 +71,26 @@ header {
         display: -webkit-flex;
         flex-direction: column;
         align-items: center;
-        margin: 0;
     }
     
     .menu ul .logotipo .iso {
         border-radius: $bordes-redondos;
         background-color: white;
-        border: 10px solid $four-color;
-        padding: 1em;
-        width: 70px;
-        height: 70px;
+        border: 7px solid $four-color;
+        width: 60px;
+        height: 60px;
+        transition: all .4s ease;
+    }
+
+    .menu ul .logotipo:hover .iso {
+        transform: scale(1.1);
+    }
+    
+    .menu ul .logotipo:active .iso {
+        border: 7px solid $four-color;
+        box-shadow: 0 0 0 30px rgba(0, 0, 0, .06);
+        transform: scale(.95);
+        
     }
 
 }
