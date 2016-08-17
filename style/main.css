@@ -204,7 +204,7 @@ header {
     font-weight: 600; }
   header .menu ul a:hover:not(.logotipo) {
     box-shadow: 0 4px 0 0 white inset;
-    background-color: rgba(0, 162, 162, 0.35); }
+    background-color: rgba(0, 162, 162, 0.25); }
   header .menu ul a:hover:not(.logotipo):active {
     transform: scale(0.95); }
   header .menu ul .logotipo {
@@ -225,5 +225,30 @@ header {
     border: 7px solid #00a2a2;
     box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.06);
     transform: scale(0.95); }
+
+.banner {
+  width: 100%;
+  min-width: 960px;
+  padding-top: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .banner .title-sub {
+    color: white;
+    margin-bottom: 2em;
+    width: 80%; }
+  .banner .title-sub h1 {
+    font-size: 3.5em;
+    letter-spacing: -3px;
+    font-weight: bold;
+    margin-bottom: .3em;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.05); }
+  .banner .title-sub h3 {
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: .3em;
+    color: rgba(255, 255, 255, 0.8); }
 
 /*# sourceMappingURL=main.css.map */
