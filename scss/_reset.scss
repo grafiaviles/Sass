@@ -12,6 +12,10 @@ body {
     text-align: center;
     background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size-adjust: 100%;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 /** ETIQUETAS NATIVAS **/
@@ -29,6 +33,16 @@ header, section, article, aside, div, nav, footer, hgroup, figure, menu, main, s
 
 .clearfix:after {
     clear: both;
+}
+
+img {
+    position: relative;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    transition: all .4s;
 }
 
 

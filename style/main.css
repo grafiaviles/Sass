@@ -10,7 +10,11 @@
 body {
   text-align: center;
   background-color: white;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size-adjust: 100%;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 /** ETIQUETAS NATIVAS **/
 header, section, article, aside, div, nav, footer, hgroup, figure, menu, main, summary, figcaption, img {
@@ -23,6 +27,14 @@ header, section, article, aside, div, nav, footer, hgroup, figure, menu, main, s
 
 .clearfix:after {
   clear: both; }
+
+img {
+  position: relative;
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  transition: all .4s; }
 
 /** FORMULARIOS **/
 button,
@@ -166,13 +178,46 @@ optgroup {
   font-weight: bold; }
 
 header {
-  background-color: salmon;
-  height: 100px;
-  display: flex;
-  display: -webkit-flex; }
-  header .logotipo {
-    width: 80px;
-    height: 80px;
-    background-color: #000; }
+  width: 100%;
+  min-width: 960px;
+  background-color: #83D6DE;
+  position: fixed; }
+  header .menu {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em; }
+  header .menu ul {
+    display: flex;
+    display: -webkit-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  header .menu ul a {
+    flex: auto;
+    color: white;
+    line-height: 4.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 1px; }
+  header .menu ul a:not(.logotipo) {
+    opacity: .7; }
+  header .menu ul a:hover:not(.logotipo) {
+    opacity: 1;
+    background-color: #74bac1; }
+  header .menu ul .logotipo {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; }
+  header .menu ul .logotipo .iso {
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #74bac1;
+    padding: 1em;
+    width: 70px;
+    height: 70px; }
 
 /*# sourceMappingURL=main.css.map */
